@@ -8,7 +8,7 @@ tinymce.PluginManager.add('paste_raw_html', function (editor, url) {
 	});
 
 	editor.addButton('paste_raw_html', {
-		tooltip: 'Add HTML (Shift+Cmd+K)',
+		tooltip: 'Add HTML',
 		image: url + '/paste-san-button-icon.png',
 		onclick: function () {
 			editor.execCommand('pasteRawHtml');
