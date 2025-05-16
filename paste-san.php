@@ -1,12 +1,14 @@
 <?php
 /*
 Plugin Name: Paste-san
-Plugin URI: https://oss.randomsense.jp/paste-san
-Description: Add "Paste Raw HTML" button to your visual editor.
+Plugin URI: https://oss.randomsense.jp/paste-san/
+Description: Add "Paste Raw HTML" button to your visual editor. Shortcut is the 「Ctrl+Shift+K（Cmd+Shift+K）」.
 Author: RandomSense(Original: NAE)
 Version: 1.1
 Author URI: https://oss.randomsense.jp/
 License: GPL2
+Requires at least: 4.9
+Requires PHP: 5.2.4
 */
 
 /*  Copyright 2017 NAE (email : @__NAE__), 2025 RandomSense (email : oss@randomsense.jp)
@@ -33,7 +35,7 @@ if (!class_exists('PasteRawHtml')) :
     class PasteRawHtml
     {
         public function __construct()
-        {            
+        {
             add_filter('mce_buttons_2', array($this, 'register_button'));
             add_filter('mce_external_plugins', array($this, 'register_plugin'));
         }
