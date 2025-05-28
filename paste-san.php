@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Paste-san
-Plugin URI: https://oss.randomsense.jp/paste-san/
+Plugin URI: https://oss.randomsense.jp/paste-san
 Description: Added "Add HTML" button to the visual editor. Shortcut is the 「Ctrl+Shift+K（Cmd+Shift+K）」.
 Author: RandomSense(Original: NAE)
 Version: 1.1
