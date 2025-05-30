@@ -1,0 +1,4 @@
+/.git/ export-ignore
+.gitignore export-ignore
+paste-san.zip export-ignore
+/assets/ export-ignore
